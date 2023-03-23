@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * print_line - draws a straight line in the terminal.
+ * print_line - draws a line in the terminal.
  * 		followed by a new line.
- * @n: an input integer
+ * @n: input integer
+ *
  * Return: Always 0
  */
 void print_line(int n)
