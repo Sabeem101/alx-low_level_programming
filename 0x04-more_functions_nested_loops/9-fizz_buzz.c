@@ -5,7 +5,8 @@
  * main - entry point
  *
  * Description: prints numbers from 1 to 100
- * Fizz for multiples of 3, Buzz for multiples of 5,
+ * Fizz for multiples of 3,
+ * Buzz for multiples of 5,
  * FizzBuzz for multiples of both
  *
  * Return: always 0
@@ -17,11 +18,11 @@ int main(void)
 	for (n = 1; n <= 100; n++)
 	{
 		if (n % 3 == 0 && n % 5 == 0)
-			printf("FizzBuzz ");
+			printf("FizzBuzz");
 		else if (n % 3 == 0)
-			printf("Fizz ");
+			printf("Fizz");
 		else if (n % 5 == 0)
-			printf("Buzz ");
+			printf("Buzz");
 		else
 			printf("%d", n);
 		if (n < 100)
