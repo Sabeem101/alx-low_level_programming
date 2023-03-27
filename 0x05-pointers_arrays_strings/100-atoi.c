@@ -1,6 +1,7 @@
 #include "main.h"
 
-/** _atoi - coverts a string to an integer.
+/**
+ * _atoi - coverts a string to an integer.
  *
  * @s: input string
  *
