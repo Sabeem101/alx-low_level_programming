@@ -20,7 +20,7 @@ void print_diagsums(int *a, int size)
 		{
 			sum_1 += *(a + x);
 		}
-		if (x % (size - 1) == 0 && x != 0 && x < size * size -1)
+		if (x % (size - 1) == 0 && x != 0 && x < size * size - 1)
 		{
 			sum_2 += *(a + x);
 		}
