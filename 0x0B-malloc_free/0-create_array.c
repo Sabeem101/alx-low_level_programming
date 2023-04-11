@@ -6,6 +6,8 @@
  *			with a specific char
  * @size: array size
  * @c: character
+ *
+ * Return: NULL if size = 0 or pointer to the array or NULL if failed
  */
 
 char *create_array(unsigned int size, char c)
@@ -19,7 +21,7 @@ char *create_array(unsigned int size, char c)
 	for (x = 0; x <= size; x++)
 		y[x] = c;
 
-	return (y);
+	return(y);
 
-	free (y);
+	free(y);
 }
