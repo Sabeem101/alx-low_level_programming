@@ -34,13 +34,13 @@ int **alloc_grid(int width, int height)
 			free(z);
 			return (NULL);
 		}
-	}	
+	}
 	for (x = 0; x < height; x++)
 	{
 		for (y = 0; y < width; y++)
-		{	
+		{
 			z[x][y] = 0;
-		}	
+		}
 	}
 	return (z);
 }
