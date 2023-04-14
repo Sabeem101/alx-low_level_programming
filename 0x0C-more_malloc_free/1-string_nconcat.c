@@ -34,14 +34,14 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	if (x == NULL)
 		return (NULL);
-	for( y = 0; y < sz1; y++)
+	for( y = 0; y < o; y++)
 		if(y < sz1)
 		{
-			x[y] = sz1[y];
+			x[y] = s1[y];
 		}
 		else
 		{
-			x[y] = sz2[y - sz1];
+			x[y] = s2[y - sz1];
 		}
 	x[y] = '\0';
 
