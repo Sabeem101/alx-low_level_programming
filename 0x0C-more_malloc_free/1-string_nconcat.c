@@ -6,7 +6,7 @@
  * @s1: first string
  * @s2: second string
  * @n: amount of bytes
- * 
+ *
  * Return: pointer to allocated memory
  */
 
@@ -34,8 +34,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	if (x == NULL)
 		return (NULL);
-	for( y = 0; y < o; y++)
-		if(y < sz1)
+	for (y = 0; y < o; y++)
+		if (y < sz1)
 		{
 			x[y] = s1[y];
 		}
