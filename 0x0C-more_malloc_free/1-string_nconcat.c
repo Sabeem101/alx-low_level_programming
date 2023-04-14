@@ -12,38 +12,35 @@
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	unsigned int y, sz1, sz2, o = 0;
 	char *x;
+	unsigned int w = 0, y = 0, z1 = 0, z2 = 0;
 
-	if (s1 == NULL)
-		s1= "";
+	while (s1 && s1[z1])
+		z1++;
+	while (s2 && s2[z2])
+		z2++;
 
-	if (s2 == NULL)
-		s2= "";
-
-	for (sz1 = 0; s1[sz1] != '\0'; sz1++)
-		;
-
-	for (sz2 = 0; s2[sz2] != '\0'; sz2++)
-		;
-
-	if (n > sz2)
-		n = sz2;
-	x = malloc((o + 1) * sizeof(char));
+	if (n < z2)
+		x = malloc(sizeof(char) * (z1 + n + 1));
+	else
+		x = malloc(sizeof(char) * (z1 + z2 + 1));
 
 	if (x == NULL)
 		return (NULL);
-	for( y = 0; y < sz1; y++)
-		if(y < sz1)
-		{
-			x[y] = sz1[y];
-			y++;
-		}
-	while (n < sz2 && y < (sz2 + n))
-		x[y++] = sz2[o++];
-	while (n >= sz2 && y < (sz1 + sz2))
-		x[y++] = sz2[o++]
-	x[y] = '\0';
+
+	if (w < z1)
+	{
+		x[w] = s1[w];
+		w++;
+	}
+
+	while (x < s2 && w < (z1 + n))
+		x[w++] = s2[y++];
+
+	while (x >= s2 && w < (z1 + z2))
+		x[w++] = s2[y++];
+
+	x[w] = '\0';
 
 	return (x);
 }
