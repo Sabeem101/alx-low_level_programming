@@ -9,7 +9,7 @@ void print_float(va_list arg);
 void print_string(va_list arg);
 
 /**
- * printchar - prints a character
+ * print_char - prints a character
  * @arg: arguments
  *
  * Return: void
@@ -24,7 +24,7 @@ void print_char(va_list arg)
 }
 
 /**
- * printinteger - prints an integer
+ * print_integer - prints an integer
  * @arg: arguments
  *
  * Return: void
@@ -39,7 +39,7 @@ void print_integer(va_list arg)
 }
 
 /**
- * printfloat - prints double
+ * print_float - prints double
  * @arg: arguments
  *
  * Return: void
@@ -54,7 +54,7 @@ void print_float(va_list arg)
 }
 
 /**
- * printstring - prints a string
+ * print_string - prints a string
  * @arg: arguments
  *
  * Return: void
