@@ -4,7 +4,7 @@
 
 /**
  * main - function main
- * @agrc: amount of arguments
+ * @argc: amount of arguments
  * @argv: pointer to argument
  *
  * Return: result
