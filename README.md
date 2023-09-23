@@ -9,3 +9,14 @@ Topics:
     - Debbuging.
     - More functions: nested loops.
     - Pointers, arrays, strings.
+    - Recursion.
+    - Static libraries.
+    - Argc, argv.
+    - Malloc free.
+    - More malloc free.
+    - Preprocessor.
+    - Structures typedef.
+    - Function pointers.
+    - Variadic functions.
+    - Singly linked lists.
+    - More singly linked lists.
