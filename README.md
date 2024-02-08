@@ -20,3 +20,4 @@ Topics:
     - Variadic functions.
     - Singly linked lists.
     - More singly linked lists.
+    - Bit manipulation.
