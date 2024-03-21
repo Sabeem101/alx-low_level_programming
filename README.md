@@ -22,3 +22,4 @@ Topics:
 	- More singly linked lists.
 	- Bit manipulation.
 	- File I/O.
+	- Doubly linked lists.
