@@ -2,6 +2,7 @@
 #define _LISTS_H_
 
 #include <stddef.h>
+#include <stdlib.h>
 #include <stdio.h>
 
 /**
@@ -21,5 +22,6 @@ typedef struct dlistint_s
 
 size_t print_dlistint(const dlistint_t *h);
 size_t dlistint_len(const dlistint_t *h);
+dlistint_t *add_dnodeint(dlistint_t **head, const int n);
 
 #endif
