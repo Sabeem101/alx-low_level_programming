@@ -23,3 +23,4 @@ Topics:
 	- Bit manipulation.
 	- File I/O.
 	- Doubly linked lists.
+	- Dynamic libraries.
