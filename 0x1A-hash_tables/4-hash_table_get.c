@@ -12,7 +12,8 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 	unsigned long int idx = 0;
 	hash_node_t *el;
 
-	if (!ht || strcmp(key, "") == 0)
+	if (ht == NULL || ht->size == 0 || ht->array == NULL||
+		       key == NULL || strlen(key) == 0)
 	{
 		return (NULL);
 	}
