@@ -24,4 +24,5 @@ Topics:
 	- File I/O.
 	- Doubly linked lists.
 	- Dynamic libraries.
-	- Hash Tables
+	- Hash Tables.
+	- Makesfiles.
